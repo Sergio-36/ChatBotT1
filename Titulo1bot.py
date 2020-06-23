@@ -42,7 +42,7 @@ def main():
     # Funcion Echo puede usarse para las respuestas.
     dp.add_handler(MessageHandler(Filters.text, respuesta))
 
-    # INICIO BOT
+    # INICIO BOT probando los puush
     updater.start_polling()
     updater.idle()
 
